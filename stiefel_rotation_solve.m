@@ -31,7 +31,7 @@ end
 
 options.debug=0;
 options.verbosity = 2;
-if adv_solve % Necessary to escape exact saddle points. Unnecessary with random initialization
+if adv_solve % Necessary to escape exact saddle points. Unnecessary with random initialization.
     options.useRand = true;
     options.miniter = 2;
 end

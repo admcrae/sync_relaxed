@@ -12,4 +12,3 @@
 module load matlab
 
 srun matlab -nosoftwareopengl -nodisplay -batch "rng(${SLURM_JOB_ID}); addpath(genpath(\"manopt/manopt\")); exp_ER(${SLURM_ARRAY_TASK_ID}, 50, ${SLURM_ARRAY_JOB_ID})"
-_ARRAY_TASK_ID}, 2, ${SLURM_ARRAY_JOB_ID})"

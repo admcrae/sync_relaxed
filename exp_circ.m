@@ -1,7 +1,6 @@
 function exp_circ(batch_index, Ntrials, job_id)
 
 r = 2;
-% Ntrials = 20;
 sigmas = logspace(-1, 1, 2*8+1);
 ps = 2:12;
 
